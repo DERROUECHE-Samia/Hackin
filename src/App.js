@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Nav1 from './compenents/Nav1';
+import Recherche from './compenents/Recherche';
+import Dem3a from './compenents/Dem3a';
+import Form from './compenents/Form';
+import Inscription from './compenents/Form';
+
+
+import './App.css'; 
+/*function App() {
+  return (
+    <>
+    <Nav />
+    <div className="bg-white-600 w-full h-screen"> </div>
+    </>
+  );
+}*/
+
+
+/*function App() {
+  return (
+    <>
+    <Nav1 user={{ name: 'derr', fullName: 'John Doe' }} />
+      <Recherche />
+      <Dem3a /> 
+    </>
+    
+  );
+}*/
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  return ( 
+    <div className=' antialiased flex w-full min-h-screen py-40 justify-center items-center'  >
+
+<Form/>
+
+  </div>
   );
 }
 
 export default App;
+
+
+
