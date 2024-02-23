@@ -25,10 +25,12 @@ export default function Nav() {
           IQUIZ
           </div>
 
+
           <div onClick={()=>setOpen(!open)} className='text-3xl absolute right-8 top-6 cursor-pointer md:hidden'>
           <ion-icon name={open ? 'close' : 'menu'}> </ion-icon>
           </div>
-          <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0  pl-9 transition-all duration-500 ease-in ${open ? 'top-20 opacity-100 ': 'top-[-490px]' } md:opacity-100 opacity-0 `}>
+
+          <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0  pl-9 transition-all duration-500 ease-in ${open ? 'top-20 opacity-100 ': 'top-[-490px]' } md:opacity-100 opacity-0 `}>
             {
 
             Links.map((link)=>(
@@ -41,9 +43,9 @@ export default function Nav() {
          
 
 
-          <Button className = "rounded-3xl "  >
-            Get Started
-          </Button>
+         <button className=" ml-12 mr-10 bg-primary-100 rounded-3xl px-10 py-2 ">
+         Get Started
+        </button>
           
           </ul>
           </div>
