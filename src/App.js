@@ -3,6 +3,8 @@ import Nav1 from './compenents/Nav1';
 import Nav from './compenents/Nav';
 
 import './App.css'; 
+import Connexion from './compenents/Connexion';
+import Inscription from './compenents/Inscription';
 
 
 

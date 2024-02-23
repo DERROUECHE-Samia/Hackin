@@ -31,8 +31,16 @@ const Nav1 = ({ user }) => {
       <div className="flex items-center">
         <div className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-gray-800">
           <span className="text-3xl text-black mr-1 pt-2">
-          <ion-icon name="book"> </ion-icon>
+          <ion-icon name="book"></ion-icon> 
           </span>
+          <div className="flex items-center space-x-4">
+            <span className="hidden md:inline-block">Endless Possibilities, unique journeys.</span>
+            
+            <a href="/profile" className="text-white hover:text-pink-300">
+              Profil
+            </a>
+
+          </div>
         </div>
       </div>
 
