@@ -1,5 +1,7 @@
 import React from 'react';
-import Inscription from './compenents/Inscription';
+import Nav1 from './compenents/Nav1';
+import Nav from './compenents/Nav';
+
 import './App.css'; 
 
 
@@ -7,7 +9,8 @@ import './App.css';
 function App() {
   return (
     <>
-      <Inscription/>
+      <Nav
+      />
       
     </>
     
