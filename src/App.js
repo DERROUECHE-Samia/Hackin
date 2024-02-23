@@ -1,26 +1,13 @@
 import React from 'react';
-import Nav1 from './compenents/Nav1';
-import Recherche from './compenents/Recherche';
-import Home from './compenents/Home';
-import Form from './compenents/Form';
-import Inscription from './compenents/Form';
-
-
+import Inscription from './compenents/Inscription';
 import './App.css'; 
-/*function App() {
-  return (
-    <>
-    <Nav />
-    <div className="bg-white-600 w-full h-screen"> </div>
-    </>
-  );
-}*/
+
 
 
 function App() {
   return (
     <>
-    <Home />
+      <Inscription/>
       
     </>
     

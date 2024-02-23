@@ -20,19 +20,19 @@ const Nav1 = ({ user }) => {
   const handleLogout = () => {
     // Mettez ici la logique de déconnexion
     console.log("Déconnexion...");
-    // Par exemple, si vous utilisez un système d'authentification comme Firebase, vous pouvez ajouter ici la fonction de déconnexion :
-    // firebase.auth().signOut();
+    
   };
 
+  
   return (
     <nav className="bg-indigo-200 p-4 flex flex-col md:flex-row md:items-center justify-between">
       <div className="flex items-center">
         <div className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-gray-800">
           <span className="text-3xl text-black mr-1 pt-2">
-            <ion-icon name="bug"></ion-icon>
+          <ion-icon name="book"></ion-icon>
           </span>
           <div className="flex items-center space-x-4">
-            <span className="hidden md:inline-block">Designer</span>
+            <span className="hidden md:inline-block">RTcleByte</span>
             
             <a href="/profile" className="text-white hover:text-pink-300">
               Profil
@@ -66,10 +66,9 @@ const Nav1 = ({ user }) => {
             
             
             {showMenu && user.name && (
-  <div className="absolute bg-indigo-800 border border-indigo-800 p-4 rounded-md mt-1 z-10  pb-12 " 
-       style={{ left: "-120px", width: "200px" }}>
-    {/* Contenu du rectangle à afficher */}
-    <div className="flex items-center mb-2 pb-4 ">
+            <div className="absolute bg-indigo-800 border border-indigo-800 p-4 rounded-md mt-1 z-10  pb-12 " 
+             style={{ left: "-120px", width: "200px" }}>
+                  <div className="flex items-center mb-2 pb-4 ">
                   <div className="bg-white border-white rounded-full h-8 w-8 flex items-center justify-center text-indigo-700 font-bold mr-2">
                     {user.name.charAt(0).toUpperCase()}
                   </div>
@@ -78,9 +77,9 @@ const Nav1 = ({ user }) => {
                     <p className="text-white" >{user.name}</p>
                   </div>
       </div>
-    <a href="/settings" className="text-white font-serif hover:underline block mb-2">
+     <a href="/settings" className="text-white font-serif hover:underline block mb-2">
       Paramètres du compte
-    </a>
+     </a>
     <button onClick={handleLogout} className="text-white font-serif hover:underline block">
       Se déconnecter
     </button>
