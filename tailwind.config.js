@@ -8,12 +8,12 @@ module.exports = {
         colors: {
          
             'primary': {
-                DEFAULT: '#FBF5F2',
-                50 : '#77B29F',
+                DEFAULT: '#FBF5F2', //rose claire
+                50 : '#77B29F', //
                 100: '#72BFC7', 
                 200 : '#6884F6', 
                 250 : '#AB70DF',
-                300 : '#EB9F4A', 
+                300 : '#EB9F4A', //jaune
                 350 : '#ECC055' , 
                 
             }

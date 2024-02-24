@@ -1,35 +1,15 @@
 import React from 'react';
-import Nav from './compenents/Nav';
-import Homee from './compenents/Homee';
-
-
-import './App.css'; 
-import Connexion from './compenents/Connexion';
-import Inscription from './compenents/Inscription';
-
-
+import Statistics from './Pages/Statistics';
 
 function App() {
   return (
     <>
-    <Nav/>
-      <Homee
-      />
+     <Statistics />
       
     </>
     
   );
 }
-
-/*function App() {
-  return ( 
-    <div className=' antialiased flex w-full min-h-screen py-40 justify-center items-center'  >
-
-<Form/>
-
-  </div>
-  );
-}*/
 
 export default App;
 

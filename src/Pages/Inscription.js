@@ -1,5 +1,3 @@
-import { FaEnvelope } from "react-icons/fa";
-import { RiLockPasswordFill } from "react-icons/ri";
 import img from "../images/Group 2277.svg";
 
 export default function Inscription() {

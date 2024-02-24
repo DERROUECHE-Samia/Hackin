@@ -3,7 +3,7 @@ import img from "../images/Group 2277.svg";
 
 export default function Connexion() {
   return ( 
-    <div className='flex w-full bg-orange-50 rounded-xl  shadow-lg overflow-hidden '>
+    <div className='flex w-full bg-primary rounded-xl  shadow-lg overflow-hidden '>
       <img src={img} alt='' className='w-1/2 object-cover ' /> 
       <div className='w-1/2 py-16 px-12 mt-9'>
      
